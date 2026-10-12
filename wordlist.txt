@@ -94,6 +94,14 @@ es|boca|la boca
 es|mano|la mano
 es|pie|el pie
 es|diente|el diente
+es|carro|el carro
+es|autobus|el autobús
+es|tren|el tren
+es|avion|el avión
+es|barco|el barco
+es|bicicleta|la bicicleta
+es|camion|el camión
+es|cohete|el cohete
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -166,3 +174,15 @@ en|shorts|shorts
 en|swimsuit|swimsuit
 en|sandal|sandal
 en|cap|cap
+en|whale|whale
+en|shark|shark
+en|octopus|octopus
+en|crab|crab
+en|seal|seal
+en|dolphin|dolphin
+en|turtle|turtle
+en|shell|shell
+en|coral|coral
+en|wave|wave
+en|boat|boat
+en|jellyfish|jellyfish

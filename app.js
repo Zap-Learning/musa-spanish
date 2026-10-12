@@ -131,6 +131,16 @@ const GAMES = {
         { word: "el pie",    sub: "the foot",  emoji: "🦶", slug: "pie" },
         { word: "el diente", sub: "the tooth", emoji: "🦷", slug: "diente" },
       ],
+      "Vehicles": [
+        { word: "el carro",      sub: "the car",     emoji: "🚗", slug: "carro" },
+        { word: "el autobús",    sub: "the bus",     emoji: "🚌", slug: "autobus" },
+        { word: "el tren",       sub: "the train",   emoji: "🚂", slug: "tren" },
+        { word: "el avión",      sub: "the plane",   emoji: "✈️", slug: "avion" },
+        { word: "el barco",      sub: "the boat",    emoji: "⛵", slug: "barco" },
+        { word: "la bicicleta",  sub: "the bike",    emoji: "🚲", slug: "bicicleta" },
+        { word: "el camión",     sub: "the truck",   emoji: "🚚", slug: "camion" },
+        { word: "el cohete",     sub: "the rocket",  emoji: "🚀", slug: "cohete" },
+      ],
     },
   },
   sight: {
@@ -223,6 +233,20 @@ const GAMES = {
         { word: "sandal",   emoji: "🩴", slug: "sandal" },
         { word: "cap",      emoji: "🧢", slug: "cap" },
       ],
+      "Ocean": [
+        { word: "whale",     emoji: "🐳", slug: "whale" },
+        { word: "shark",     emoji: "🦈", slug: "shark" },
+        { word: "octopus",   emoji: "🐙", slug: "octopus" },
+        { word: "crab",      emoji: "🦀", slug: "crab" },
+        { word: "seal",      emoji: "🦭", slug: "seal" },
+        { word: "dolphin",   emoji: "🐬", slug: "dolphin" },
+        { word: "turtle",    emoji: "🐢", slug: "turtle" },
+        { word: "shell",     emoji: "🐚", slug: "shell" },
+        { word: "coral",     emoji: "🪸", slug: "coral" },
+        { word: "wave",      emoji: "🌊", slug: "wave" },
+        { word: "boat",      emoji: "⛵", slug: "boat" },
+        { word: "jellyfish", emoji: "🪼", slug: "jellyfish" },
+      ],
     },
   },
 };
@@ -260,8 +284,9 @@ const NEW_CONTENT = {
       "Nature": "2026-10-04", "Kitchen": "2026-10-04", "Fruits": "2026-10-04",
       "Veggies": "2026-10-04", "Places": "2026-10-04",
       "Family": "2026-10-09", "Body": "2026-10-09",
+      "Vehicles": "2026-10-12",
     },
-    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09" },
+    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12" },
   },
   words: {
     spanish: {
