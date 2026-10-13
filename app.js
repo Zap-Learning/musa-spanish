@@ -328,13 +328,51 @@ function isNewDate(d) {
   const ageDays = (Date.now() - new Date(d + "T12:00:00Z").getTime()) / 864e5;
   return ageDays >= 0 && ageDays <= NEW_DAYS;
 }
-function categoryIsNew(game, name) {
-  if (isNewDate(NEW_CONTENT.categories[game]?.[name])) return true;
+
+/* ---------- seen tracking: dismiss "new" once a category lap is done ---------- */
+const SEEN_KEY = "musa-new-seen";
+// shape: { cats: {"game|Category": "YYYY-MM-DD"}, words: {"game|slug": "YYYY-MM-DD"} }
+// We store the dismissed NEW_CONTENT date; if content is later re-stamped with a
+// NEWER date (fresh words baked in), the badge correctly reappears.
+function loadSeen() {
+  try {
+    const s = JSON.parse(localStorage.getItem(SEEN_KEY)) || {};
+    return { cats: s.cats || {}, words: s.words || {} };
+  } catch {
+    return { cats: {}, words: {} };
+  }
+}
+function markCategorySeen(game, name) {
+  if (!game || !name) return;
+  const seen = loadSeen();
+  const catDate = NEW_CONTENT.categories[game]?.[name];
+  if (catDate) seen.cats[game + "|" + name] = catDate;
   const wmap = NEW_CONTENT.words[game] || {};
-  return (GAMES[game].categories[name] || []).some((c) => isNewDate(wmap[c.slug]));
+  (GAMES[game].categories[name] || []).forEach((c) => {
+    if (wmap[c.slug]) seen.words[game + "|" + c.slug] = wmap[c.slug];
+  });
+  try { localStorage.setItem(SEEN_KEY, JSON.stringify(seen)); } catch {}
+  renderWhatsNew();
+  if (state.game === game) {
+    renderTabs(Object.keys(GAMES[game].categories));
+    document.querySelectorAll(".tab").forEach((t) =>
+      t.classList.toggle("active", t.dataset.cat === name)
+    );
+  }
+}
+
+function categoryIsNew(game, name) {
+  const seen = loadSeen();
+  const catDate = NEW_CONTENT.categories[game]?.[name];
+  if (isNewDate(catDate) && seen.cats[game + "|" + name] !== catDate) return true;
+  const wmap = NEW_CONTENT.words[game] || {};
+  return (GAMES[game].categories[name] || []).some(
+    (c) => isNewDate(wmap[c.slug]) && seen.words[game + "|" + c.slug] !== wmap[c.slug]
+  );
 }
 function wordIsNew(game, slug) {
-  return isNewDate((NEW_CONTENT.words[game] || {})[slug]);
+  const d = (NEW_CONTENT.words[game] || {})[slug];
+  return isNewDate(d) && loadSeen().words[game + "|" + slug] !== d;
 }
 function renderWhatsNew() {
   const el = $("whats-new");
@@ -494,7 +532,10 @@ $("next-btn").addEventListener("click", () => {
   state.index = (state.index + 1) % cards.length;
   if (state.index === 0 && cards.length > 1) {
     state.shuffled = shuffle(cards.slice());  // reshuffle each lap
+    markCategorySeen(state.game, state.category); // lap done → dismiss "new"
     celebrate();
+  } else if (cards.length === 1) {
+    markCategorySeen(state.game, state.category); // single-card category: viewed = gone through
   }
   showCard();
 });
