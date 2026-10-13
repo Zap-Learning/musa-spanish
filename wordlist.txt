@@ -102,6 +102,14 @@ es|barco|el barco
 es|bicicleta|la bicicleta
 es|camion|el camión
 es|cohete|el cohete
+es|tiburon|el tiburón
+es|ballena|la ballena
+es|pulpo|el pulpo
+es|cangrejo|el cangrejo
+es|medusa|la medusa
+es|foca|la foca
+es|delfin|el delfín
+es|tortuga|la tortuga
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -186,3 +194,15 @@ en|coral|coral
 en|wave|wave
 en|boat|boat
 en|jellyfish|jellyfish
+en|butterfly|butterfly
+en|caterpillar|caterpillar
+en|ant|ant
+en|beetle|beetle
+en|ladybug|ladybug
+en|cricket|cricket
+en|spider|spider
+en|mosquito|mosquito
+en|fly|fly
+en|worm|worm
+en|snail|snail
+en|scorpion|scorpion
