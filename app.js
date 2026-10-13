@@ -151,6 +151,16 @@ const GAMES = {
         { word: "el delfín",    sub: "the dolphin",   emoji: "🐬", slug: "delfin" },
         { word: "la tortuga",   sub: "the turtle",    emoji: "🐢", slug: "tortuga" },
       ],
+      "Insects": [
+        { word: "la mariposa",  sub: "the butterfly", emoji: "🦋", slug: "mariposa" },
+        { word: "la abeja",     sub: "the bee",       emoji: "🐝", slug: "abeja" },
+        { word: "la hormiga",   sub: "the ant",       emoji: "🐜", slug: "hormiga" },
+        { word: "la mariquita", sub: "the ladybug",   emoji: "🐞", slug: "mariquita" },
+        { word: "la araña",     sub: "the spider",    emoji: "🕷️", slug: "arana" },
+        { word: "el gusano",    sub: "the worm",      emoji: "🐛", slug: "gusano" },
+        { word: "el caracol",   sub: "the snail",     emoji: "🐌", slug: "caracol" },
+        { word: "la mosca",     sub: "the fly",       emoji: "🪰", slug: "mosca" },
+      ],
     },
   },
   sight: {
@@ -271,6 +281,20 @@ const GAMES = {
         { word: "snail",       emoji: "🐌", slug: "snail" },
         { word: "scorpion",    emoji: "🦂", slug: "scorpion" },
       ],
+      "Vehicles": [
+        { word: "bus",       emoji: "🚌", slug: "bus" },
+        { word: "train",     emoji: "🚂", slug: "train" },
+        { word: "plane",     emoji: "✈️", slug: "plane" },
+        { word: "ship",      emoji: "🚢", slug: "ship" },
+        { word: "bike",      emoji: "🚲", slug: "bike" },
+        { word: "truck",     emoji: "🚚", slug: "truck" },
+        { word: "rocket",    emoji: "🚀", slug: "rocket" },
+        { word: "van",       emoji: "🚐", slug: "van" },
+        { word: "taxi",      emoji: "🚕", slug: "taxi" },
+        { word: "tractor",   emoji: "🚜", slug: "tractor" },
+        { word: "ambulance", emoji: "🚑", slug: "ambulance" },
+        { word: "subway",    emoji: "🚇", slug: "subway" },
+      ],
     },
   },
 };
@@ -310,8 +334,9 @@ const NEW_CONTENT = {
       "Family": "2026-10-09", "Body": "2026-10-09",
       "Vehicles": "2026-10-12",
       "Ocean Animals": "2026-10-13",
+      "Insects": "2026-10-13",
     },
-    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13" },
+    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13" },
   },
   words: {
     spanish: {

@@ -110,6 +110,14 @@ es|medusa|la medusa
 es|foca|la foca
 es|delfin|el delfín
 es|tortuga|la tortuga
+es|mariposa|la mariposa
+es|abeja|la abeja
+es|hormiga|la hormiga
+es|mariquita|la mariquita
+es|arana|la araña
+es|gusano|el gusano
+es|caracol|el caracol
+es|mosca|la mosca
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -206,3 +214,15 @@ en|fly|fly
 en|worm|worm
 en|snail|snail
 en|scorpion|scorpion
+en|bus|bus
+en|train|train
+en|plane|plane
+en|ship|ship
+en|bike|bike
+en|truck|truck
+en|rocket|rocket
+en|van|van
+en|taxi|taxi
+en|tractor|tractor
+en|ambulance|ambulance
+en|subway|subway
