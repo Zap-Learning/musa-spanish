@@ -161,6 +161,16 @@ const GAMES = {
         { word: "el caracol",   sub: "the snail",     emoji: "🐌", slug: "caracol" },
         { word: "la mosca",     sub: "the fly",       emoji: "🪰", slug: "mosca" },
       ],
+      "Birds": [
+        { word: "el pingüino", sub: "the penguin",    emoji: "🐧", slug: "pinguino" },
+        { word: "el flamenco", sub: "the flamingo",   emoji: "🦩", slug: "flamenco" },
+        { word: "el loro",     sub: "the parrot",     emoji: "🦜", slug: "loro" },
+        { word: "el pavo",     sub: "the turkey",     emoji: "🦃", slug: "pavo" },
+        { word: "el gallo",    sub: "the rooster",    emoji: "🐓", slug: "gallo" },
+        { word: "la gallina",  sub: "the hen",        emoji: "🐔", slug: "gallina" },
+        { word: "el cisne",    sub: "the swan",       emoji: "🦢", slug: "cisne" },
+        { word: "el águila",   sub: "the eagle",      emoji: "🦅", slug: "aguila" },
+      ],
     },
   },
   sight: {
@@ -295,6 +305,20 @@ const GAMES = {
         { word: "ambulance", emoji: "🚑", slug: "ambulance" },
         { word: "subway",    emoji: "🚇", slug: "subway" },
       ],
+      "Jobs": [
+        { word: "doctor",          emoji: "🩺", slug: "doctor" },
+        { word: "teacher",         emoji: "🧑‍🏫", slug: "teacher" },
+        { word: "chef",            emoji: "🧑‍🍳", slug: "chef" },
+        { word: "farmer",          emoji: "🧑‍🌾", slug: "farmer" },
+        { word: "artist",          emoji: "🎨", slug: "artist" },
+        { word: "pilot",           emoji: "🧑‍✈️", slug: "pilot" },
+        { word: "builder",         emoji: "👷", slug: "builder" },
+        { word: "nurse",           emoji: "🧑‍⚕️", slug: "nurse" },
+        { word: "police officer",  emoji: "👮", slug: "police-officer" },
+        { word: "firefighter",     emoji: "🧑‍🚒", slug: "firefighter" },
+        { word: "vet",             emoji: "🐾", slug: "vet" },
+        { word: "mail carrier",    emoji: "📬", slug: "mail-carrier" },
+      ],
     },
   },
 };
@@ -335,8 +359,9 @@ const NEW_CONTENT = {
       "Vehicles": "2026-10-12",
       "Ocean Animals": "2026-10-13",
       "Insects": "2026-10-13",
+      "Birds": "2026-10-14",
     },
-    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13" },
+    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14" },
   },
   words: {
     spanish: {

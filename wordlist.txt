@@ -118,6 +118,14 @@ es|arana|la araña
 es|gusano|el gusano
 es|caracol|el caracol
 es|mosca|la mosca
+es|pinguino|el pingüino
+es|flamenco|el flamenco
+es|loro|el loro
+es|pavo|el pavo
+es|gallo|el gallo
+es|gallina|la gallina
+es|cisne|el cisne
+es|aguila|el águila
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -226,3 +234,15 @@ en|taxi|taxi
 en|tractor|tractor
 en|ambulance|ambulance
 en|subway|subway
+en|doctor|doctor
+en|teacher|teacher
+en|chef|chef
+en|farmer|farmer
+en|artist|artist
+en|pilot|pilot
+en|builder|builder
+en|nurse|nurse
+en|police-officer|police officer
+en|firefighter|firefighter
+en|vet|vet
+en|mail-carrier|mail carrier
