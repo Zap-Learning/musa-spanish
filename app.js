@@ -599,6 +599,7 @@ function showCard() {
 
 $("flashcard").addEventListener("click", () => {
   $("flashcard").classList.toggle("flipped");
+  speak();   // flipping the card voices the word — no separate speak tap needed
 });
 
 $("next-btn").addEventListener("click", () => {
