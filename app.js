@@ -619,13 +619,24 @@ $("speak-btn").addEventListener("click", speak);
 
 /* ---------- audio ---------- */
 let fallbackFired = false;
+// One word at a time: while audio is playing, extra taps of the speak button
+// are ignored so the word always plays to completion before it can restart.
+let speakLocked = false;
+
+function setSpeakLocked(locked) {
+  speakLocked = locked;
+  const btn = $("speak-btn");
+  if (btn) btn.classList.toggle("speaking", locked);
+}
 
 function stopAudio() {
   player.pause();
   if ("speechSynthesis" in window) speechSynthesis.cancel();
+  setSpeakLocked(false);
 }
 
 function speak() {
+  if (speakLocked) return;   // already talking — let the word finish
   const card = currentCards()[state.index];
   const lang = GAMES[state.game].lang;
   const src = `audio/${lang}-${card.slug}.mp3`;
@@ -636,20 +647,25 @@ function speak() {
     fallbackFired = true;
     synthFallback(card.word, lang);
   };
-  player.onerror = onFail;
+  setSpeakLocked(true);
+  player.onended = () => setSpeakLocked(false);
+  player.onerror = () => { setSpeakLocked(false); onFail(); };
   player.src = src;
   player.currentTime = 0;
   player.play().catch(onFail);
 }
 
 function synthFallback(text, lang) {
-  if (!("speechSynthesis" in window)) return;
+  if (!("speechSynthesis" in window)) { setSpeakLocked(false); return; }
   const u = new SpeechSynthesisUtterance(text);
   u.lang = lang === "es" ? "es-ES" : "en-US";
   u.rate = 0.85;
+  u.onend = () => setSpeakLocked(false);
+  u.onerror = () => setSpeakLocked(false);
   speechSynthesis.cancel();
   speechSynthesis.speak(u);
 }
+
 
 /* ---------- stars ---------- */
 function renderStars() {
