@@ -180,6 +180,14 @@ html, body {
 .speak-btn:active { transform: translateY(3px); box-shadow: 0 2px 0 rgba(0,0,0,.15); }
 .speak-btn.green { background: var(--green); }
 .speak-btn.orange { background: var(--orange); }
+/* While a word is playing: gentle pulse instead of restart-on-tap. The
+   animation overrides the :active press so repeat taps read as "it's
+   talking" rather than dead button. */
+.speak-btn.speaking { animation: speak-pulse .7s ease-in-out infinite; }
+@keyframes speak-pulse {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.08); }
+}
 .next-btn {
   flex: 1; min-height: 64px;
   border: none; border-radius: 20px;
