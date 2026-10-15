@@ -171,6 +171,16 @@ const GAMES = {
         { word: "el cisne",    sub: "the swan",       emoji: "🦢", slug: "cisne" },
         { word: "el águila",   sub: "the eagle",      emoji: "🦅", slug: "aguila" },
       ],
+      "Clothes": [
+        { word: "la camisa",      sub: "the shirt",    emoji: "👕", slug: "camisa" },
+        { word: "los pantalones", sub: "the pants",    emoji: "👖", slug: "pantalones" },
+        { word: "el vestido",     sub: "the dress",    emoji: "👗", slug: "vestido" },
+        { word: "el calcetín",    sub: "the sock",     emoji: "🧦", slug: "calcetin" },
+        { word: "el abrigo",      sub: "the coat",     emoji: "🧥", slug: "abrigo" },
+        { word: "la bota",        sub: "the boot",     emoji: "👢", slug: "bota" },
+        { word: "el guante",      sub: "the glove",    emoji: "🧤", slug: "guante" },
+        { word: "la bufanda",     sub: "the scarf",    emoji: "🧣", slug: "bufanda" },
+      ],
     },
   },
   sight: {
@@ -319,6 +329,20 @@ const GAMES = {
         { word: "vet",             emoji: "🐾", slug: "vet" },
         { word: "mail carrier",    emoji: "📬", slug: "mail-carrier" },
       ],
+      "Sports": [
+        { word: "soccer",     emoji: "⚽", slug: "soccer" },
+        { word: "baseball",   emoji: "⚾", slug: "baseball" },
+        { word: "tennis",     emoji: "🎾", slug: "tennis" },
+        { word: "basketball", emoji: "🏀", slug: "basketball" },
+        { word: "football",   emoji: "🏈", slug: "football" },
+        { word: "volleyball", emoji: "🏐", slug: "volleyball" },
+        { word: "golf",       emoji: "⛳", slug: "golf" },
+        { word: "hockey",     emoji: "🏒", slug: "hockey" },
+        { word: "bowling",    emoji: "🎳", slug: "bowling" },
+        { word: "karate",     emoji: "🥋", slug: "karate" },
+        { word: "yoga",       emoji: "🧘", slug: "yoga" },
+        { word: "skating",    emoji: "⛸️", slug: "skating" },
+      ],
     },
   },
 };
@@ -360,8 +384,9 @@ const NEW_CONTENT = {
       "Ocean Animals": "2026-10-13",
       "Insects": "2026-10-13",
       "Birds": "2026-10-14",
+      "Clothes": "2026-10-15",
     },
-    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14" },
+    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15" },
   },
   words: {
     spanish: {
