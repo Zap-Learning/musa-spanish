@@ -134,6 +134,14 @@ es|abrigo|el abrigo
 es|bota|la bota
 es|guante|el guante
 es|bufanda|la bufanda
+es|osito|el osito
+es|muneca|la muñeca
+es|bloque|el bloque
+es|patineta|la patineta
+es|tambor|el tambor
+es|rompecabezas|el rompecabezas
+es|cometa|la cometa
+es|robot|el robot
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -266,3 +274,15 @@ en|bowling|bowling
 en|karate|karate
 en|yoga|yoga
 en|skating|skating
+en|pencil|pencil
+en|crayon|crayon
+en|desk|desk
+en|student|student
+en|backpack|backpack
+en|scissors|scissors
+en|ruler|ruler
+en|notebook|notebook
+en|paint|paint
+en|marker|marker
+en|school|school
+en|computer|computer
