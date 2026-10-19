@@ -191,6 +191,16 @@ const GAMES = {
         { word: "la cometa",       sub: "the kite",       emoji: "🪁", slug: "cometa" },
         { word: "el robot",        sub: "the robot",      emoji: "🤖", slug: "robot" },
       ],
+      "Emotions": [
+        { word: "feliz",       sub: "happy",     emoji: "😀", slug: "feliz" },
+        { word: "triste",      sub: "sad",       emoji: "😢", slug: "triste" },
+        { word: "enojado",     sub: "angry",     emoji: "😠", slug: "enojado" },
+        { word: "asustado",    sub: "scared",    emoji: "😱", slug: "asustado" },
+        { word: "sorprendido", sub: "surprised", emoji: "😲", slug: "sorprendido" },
+        { word: "cansado",     sub: "tired",     emoji: "😴", slug: "cansado" },
+        { word: "enfermo",     sub: "sick",      emoji: "🤒", slug: "enfermo" },
+        { word: "contento",    sub: "glad",      emoji: "😊", slug: "contento" },
+      ],
     },
   },
   sight: {
@@ -367,6 +377,20 @@ const GAMES = {
         { word: "school",   emoji: "🏫", slug: "school" },
         { word: "computer", emoji: "💻", slug: "computer" },
       ],
+      "Emotions": [
+        { word: "happy",     emoji: "😊", slug: "happy" },
+        { word: "sad",       emoji: "😢", slug: "sad" },
+        { word: "angry",     emoji: "😠", slug: "angry" },
+        { word: "scared",    emoji: "😨", slug: "scared" },
+        { word: "surprised", emoji: "😲", slug: "surprised" },
+        { word: "tired",     emoji: "🥱", slug: "tired" },
+        { word: "sick",      emoji: "🤒", slug: "sick" },
+        { word: "excited",   emoji: "🤩", slug: "excited" },
+        { word: "shy",       emoji: "😳", slug: "shy" },
+        { word: "proud",     emoji: "😤", slug: "proud" },
+        { word: "calm",      emoji: "😌", slug: "calm" },
+        { word: "silly",     emoji: "🤪", slug: "silly" },
+      ],
     },
   },
 };
@@ -410,8 +434,9 @@ const NEW_CONTENT = {
       "Birds": "2026-10-14",
       "Clothes": "2026-10-15",
       "Toys": "2026-10-16",
+      "Emotions": "2026-10-19",
     },
-    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16" },
+    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19" },
   },
   words: {
     spanish: {
