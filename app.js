@@ -201,6 +201,16 @@ const GAMES = {
         { word: "enfermo",     sub: "sick",      emoji: "🤒", slug: "enfermo" },
         { word: "contento",    sub: "glad",      emoji: "😊", slug: "contento" },
       ],
+      "Music": [
+        { word: "la guitarra",   sub: "the guitar",    emoji: "🎸", slug: "guitarra" },
+        { word: "el piano",      sub: "the piano",     emoji: "🎹", slug: "piano" },
+        { word: "la trompeta",   sub: "the trumpet",   emoji: "🎺", slug: "trompeta" },
+        { word: "el violín",     sub: "the violin",    emoji: "🎻", slug: "violin" },
+        { word: "la flauta",     sub: "the flute",     emoji: "🪈", slug: "flauta" },
+        { word: "el micrófono",  sub: "the microphone", emoji: "🎤", slug: "microfono" },
+        { word: "la maraca",     sub: "the maraca",    emoji: "🪇", slug: "maraca" },
+        { word: "la campana",    sub: "the bell",      emoji: "🔔", slug: "campana" },
+      ],
     },
   },
   sight: {
@@ -391,6 +401,20 @@ const GAMES = {
         { word: "calm",      emoji: "😌", slug: "calm" },
         { word: "silly",     emoji: "🤪", slug: "silly" },
       ],
+      "Home": [
+        { word: "kitchen", emoji: "🥣", slug: "kitchen" },
+        { word: "bedroom", emoji: "🛌", slug: "bedroom" },
+        { word: "bathroom", emoji: "🛁", slug: "bathroom" },
+        { word: "garden",  emoji: "🌷", slug: "garden" },
+        { word: "garage",  emoji: "🛞", slug: "garage" },
+        { word: "stairs",  emoji: "🪜", slug: "stairs" },
+        { word: "window",  emoji: "🪟", slug: "window" },
+        { word: "door",    emoji: "🚪", slug: "door" },
+        { word: "roof",    emoji: "🏠", slug: "roof" },
+        { word: "fence",   emoji: "🚧", slug: "fence" },
+        { word: "attic",   emoji: "🏚️", slug: "attic" },
+        { word: "balcony", emoji: "🏢", slug: "balcony" },
+      ],
     },
   },
 };
@@ -435,8 +459,9 @@ const NEW_CONTENT = {
       "Clothes": "2026-10-15",
       "Toys": "2026-10-16",
       "Emotions": "2026-10-19",
+      "Music": "2026-10-20",
     },
-    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19" },
+    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19", "Home": "2026-10-20" },
   },
   words: {
     spanish: {

@@ -150,6 +150,14 @@ es|sorprendido|sorprendido
 es|cansado|cansado
 es|enfermo|enfermo
 es|contento|contento
+es|guitarra|la guitarra
+es|piano|el piano
+es|trompeta|la trompeta
+es|violin|el violín
+es|flauta|la flauta
+es|microfono|el micrófono
+es|maraca|la maraca
+es|campana|la campana
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -306,3 +314,15 @@ en|shy|shy
 en|proud|proud
 en|calm|calm
 en|silly|silly
+en|kitchen|kitchen
+en|bedroom|bedroom
+en|bathroom|bathroom
+en|garden|garden
+en|garage|garage
+en|stairs|stairs
+en|window|window
+en|door|door
+en|roof|roof
+en|fence|fence
+en|attic|attic
+en|balcony|balcony
