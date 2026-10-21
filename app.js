@@ -211,6 +211,16 @@ const GAMES = {
         { word: "la maraca",     sub: "the maraca",    emoji: "🪇", slug: "maraca" },
         { word: "la campana",    sub: "the bell",      emoji: "🔔", slug: "campana" },
       ],
+      "Bathroom": [
+        { word: "el jabón",            sub: "the soap",       emoji: "🧼", slug: "jabon" },
+        { word: "la ducha",            sub: "the shower",     emoji: "🚿", slug: "ducha" },
+        { word: "el cepillo de dientes", sub: "the toothbrush", emoji: "🪥", slug: "cepillo-dientes" },
+        { word: "la bañera",           sub: "the bathtub",    emoji: "🛁", slug: "banera" },
+        { word: "el inodoro",          sub: "the toilet",     emoji: "🚽", slug: "inodoro" },
+        { word: "el espejo",           sub: "the mirror",     emoji: "🪞", slug: "espejo" },
+        { word: "el champú",           sub: "the shampoo",    emoji: "🧴", slug: "champu" },
+        { word: "el peine",            sub: "the comb",       emoji: "🪮", slug: "peine" },
+      ],
     },
   },
   sight: {
@@ -415,6 +425,20 @@ const GAMES = {
         { word: "attic",   emoji: "🏚️", slug: "attic" },
         { word: "balcony", emoji: "🏢", slug: "balcony" },
       ],
+      "Opposites": [
+        { word: "big",    emoji: "🐘", slug: "big" },
+        { word: "small",  emoji: "🐭", slug: "small" },
+        { word: "hot",    emoji: "🥵", slug: "hot" },
+        { word: "cold",   emoji: "🥶", slug: "cold" },
+        { word: "up",     emoji: "⬆️", slug: "up" },
+        { word: "down",   emoji: "⬇️", slug: "down" },
+        { word: "fast",   emoji: "💨", slug: "fast" },
+        { word: "slow",   emoji: "🦥", slug: "slow" },
+        { word: "day",    emoji: "🌞", slug: "day" },
+        { word: "night",  emoji: "🌃", slug: "night" },
+        { word: "open",   emoji: "📂", slug: "open" },
+        { word: "close",  emoji: "📁", slug: "close" },
+      ],
     },
   },
 };
@@ -460,8 +484,9 @@ const NEW_CONTENT = {
       "Toys": "2026-10-16",
       "Emotions": "2026-10-19",
       "Music": "2026-10-20",
+      "Bathroom": "2026-10-21",
     },
-    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19", "Home": "2026-10-20" },
+    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19", "Home": "2026-10-20", "Opposites": "2026-10-21" },
   },
   words: {
     spanish: {

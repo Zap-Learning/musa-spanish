@@ -158,6 +158,14 @@ es|flauta|la flauta
 es|microfono|el micrófono
 es|maraca|la maraca
 es|campana|la campana
+es|jabon|el jabón
+es|ducha|la ducha
+es|cepillo-dientes|el cepillo de dientes
+es|banera|la bañera
+es|inodoro|el inodoro
+es|espejo|el espejo
+es|champu|el champú
+es|peine|el peine
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -326,3 +334,15 @@ en|roof|roof
 en|fence|fence
 en|attic|attic
 en|balcony|balcony
+en|big|big
+en|small|small
+en|hot|hot
+en|cold|cold
+en|up|up
+en|down|down
+en|fast|fast
+en|slow|slow
+en|day|day
+en|night|night
+en|open|open
+en|close|close
