@@ -221,6 +221,16 @@ const GAMES = {
         { word: "el champú",           sub: "the shampoo",    emoji: "🧴", slug: "champu" },
         { word: "el peine",            sub: "the comb",       emoji: "🪮", slug: "peine" },
       ],
+      "Desserts": [
+        { word: "el pastel",    sub: "the cake",       emoji: "🍰", slug: "pastel" },
+        { word: "el helado",    sub: "the ice cream",  emoji: "🍦", slug: "helado" },
+        { word: "la galleta",   sub: "the cookie",     emoji: "🍪", slug: "galleta" },
+        { word: "la dona",      sub: "the donut",      emoji: "🍩", slug: "dona" },
+        { word: "el dulce",     sub: "the candy",      emoji: "🍬", slug: "dulce" },
+        { word: "la paleta",    sub: "the lollipop",   emoji: "🍭", slug: "paleta" },
+        { word: "el chocolate", sub: "the chocolate",  emoji: "🍫", slug: "chocolate" },
+        { word: "el flan",      sub: "the flan",       emoji: "🍮", slug: "flan" },
+      ],
     },
   },
   sight: {
@@ -439,6 +449,20 @@ const GAMES = {
         { word: "open",   emoji: "📂", slug: "open" },
         { word: "close",  emoji: "📁", slug: "close" },
       ],
+      "Pets": [
+        { word: "puppy", emoji: "🐕", slug: "puppy" },
+        { word: "kitten", emoji: "🐈", slug: "kitten" },
+        { word: "hamster", emoji: "🐹", slug: "hamster" },
+        { word: "goldfish", emoji: "🐠", slug: "goldfish" },
+        { word: "parrot", emoji: "🦜", slug: "parrot" },
+        { word: "bunny", emoji: "🐰", slug: "bunny" },
+        { word: "lizard", emoji: "🦎", slug: "lizard" },
+        { word: "pony", emoji: "🐎", slug: "pony" },
+        { word: "chick", emoji: "🐥", slug: "chick" },
+        { word: "mouse", emoji: "🐁", slug: "mouse" },
+        { word: "snake", emoji: "🐍", slug: "snake" },
+        { word: "bone", emoji: "🦴", slug: "bone" },
+      ],
     },
   },
 };
@@ -485,8 +509,9 @@ const NEW_CONTENT = {
       "Emotions": "2026-10-19",
       "Music": "2026-10-20",
       "Bathroom": "2026-10-21",
+      "Desserts": "2026-10-22",
     },
-    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19", "Home": "2026-10-20", "Opposites": "2026-10-21" },
+    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19", "Home": "2026-10-20", "Opposites": "2026-10-21", "Pets": "2026-10-22" },
   },
   words: {
     spanish: {

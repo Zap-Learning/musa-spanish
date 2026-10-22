@@ -166,6 +166,14 @@ es|inodoro|el inodoro
 es|espejo|el espejo
 es|champu|el champú
 es|peine|el peine
+es|pastel|el pastel
+es|helado|el helado
+es|galleta|la galleta
+es|dona|la dona
+es|dulce|el dulce
+es|paleta|la paleta
+es|chocolate|el chocolate
+es|flan|el flan
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -346,3 +354,15 @@ en|day|day
 en|night|night
 en|open|open
 en|close|close
+en|puppy|puppy
+en|kitten|kitten
+en|hamster|hamster
+en|goldfish|goldfish
+en|parrot|parrot
+en|bunny|bunny
+en|lizard|lizard
+en|pony|pony
+en|chick|chick
+en|mouse|mouse
+en|snake|snake
+en|bone|bone
