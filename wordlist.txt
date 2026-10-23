@@ -174,6 +174,14 @@ es|dulce|el dulce
 es|paleta|la paleta
 es|chocolate|el chocolate
 es|flan|el flan
+es|serpiente|la serpiente
+es|lagarto|el lagarto
+es|cocodrilo|el cocodrilo
+es|dinosaurio|el dinosaurio
+es|brontosaurio|el brontosaurio
+es|dragon|el dragón
+es|tiranosaurio|el tiranosaurio
+es|hueso|el hueso
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -366,3 +374,15 @@ en|chick|chick
 en|mouse|mouse
 en|snake|snake
 en|bone|bone
+en|balloon|balloon
+en|candle|candle
+en|present|present
+en|party|party
+en|party-hat|party hat
+en|confetti|confetti
+en|pinata|pinata
+en|clown|clown
+en|cupcake|cupcake
+en|card|card
+en|birthday|birthday
+en|ribbon|ribbon

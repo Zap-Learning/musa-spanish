@@ -231,6 +231,16 @@ const GAMES = {
         { word: "el chocolate", sub: "the chocolate",  emoji: "🍫", slug: "chocolate" },
         { word: "el flan",      sub: "the flan",       emoji: "🍮", slug: "flan" },
       ],
+      "Reptiles": [
+        { word: "la serpiente",    sub: "the snake",       emoji: "🐍", slug: "serpiente" },
+        { word: "el lagarto",      sub: "the lizard",      emoji: "🦎", slug: "lagarto" },
+        { word: "el cocodrilo",    sub: "the crocodile",   emoji: "🐊", slug: "cocodrilo" },
+        { word: "el dinosaurio",   sub: "the dinosaur",    emoji: "🦖", slug: "dinosaurio" },
+        { word: "el brontosaurio", sub: "the long-neck dinosaur", emoji: "🦕", slug: "brontosaurio" },
+        { word: "el dragón",       sub: "the dragon",      emoji: "🐉", slug: "dragon" },
+        { word: "el tiranosaurio", sub: "the T. rex",       emoji: "🦖", slug: "tiranosaurio" },
+        { word: "el hueso",        sub: "the bone",        emoji: "🦴", slug: "hueso" },
+      ],
     },
   },
   sight: {
@@ -463,6 +473,20 @@ const GAMES = {
         { word: "snake", emoji: "🐍", slug: "snake" },
         { word: "bone", emoji: "🦴", slug: "bone" },
       ],
+      "Birthday": [
+        { word: "balloon", emoji: "🎈", slug: "balloon" },
+        { word: "candle", emoji: "🕯️", slug: "candle" },
+        { word: "present", emoji: "🎁", slug: "present" },
+        { word: "party", emoji: "🎉", slug: "party" },
+        { word: "party hat", emoji: "🥳", slug: "party-hat" },
+        { word: "confetti", emoji: "🎊", slug: "confetti" },
+        { word: "pinata", emoji: "🪅", slug: "pinata" },
+        { word: "clown", emoji: "🤡", slug: "clown" },
+        { word: "cupcake", emoji: "🧁", slug: "cupcake" },
+        { word: "card", emoji: "💌", slug: "card" },
+        { word: "birthday", emoji: "🎂", slug: "birthday" },
+        { word: "ribbon", emoji: "🎀", slug: "ribbon" },
+      ],
     },
   },
 };
@@ -510,8 +534,9 @@ const NEW_CONTENT = {
       "Music": "2026-10-20",
       "Bathroom": "2026-10-21",
       "Desserts": "2026-10-22",
+      "Reptiles": "2026-10-23",
     },
-    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19", "Home": "2026-10-20", "Opposites": "2026-10-21", "Pets": "2026-10-22" },
+    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19", "Home": "2026-10-20", "Opposites": "2026-10-21", "Pets": "2026-10-22", "Birthday": "2026-10-23" },
   },
   words: {
     spanish: {
