@@ -182,6 +182,14 @@ es|brontosaurio|el brontosaurio
 es|dragon|el dragón
 es|tiranosaurio|el tiranosaurio
 es|hueso|el hueso
+es|batido|el batido
+es|limonada|la limonada
+es|te|el té
+es|horchata|la horchata
+es|agua-coco|el agua de coco
+es|agua-jamaica|el agua de jamaica
+es|atole|el atole
+es|agua-mineral|el agua mineral
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -386,3 +394,15 @@ en|cupcake|cupcake
 en|card|card
 en|birthday|birthday
 en|ribbon|ribbon
+en|one|one
+en|two|two
+en|three|three
+en|four|four
+en|five|five
+en|six|six
+en|seven|seven
+en|eight|eight
+en|nine|nine
+en|ten|ten
+en|eleven|eleven
+en|twelve|twelve

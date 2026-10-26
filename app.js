@@ -241,6 +241,16 @@ const GAMES = {
         { word: "el tiranosaurio", sub: "the T. rex",       emoji: "🦖", slug: "tiranosaurio" },
         { word: "el hueso",        sub: "the bone",        emoji: "🦴", slug: "hueso" },
       ],
+      "Drinks": [
+        { word: "el batido",         sub: "the smoothie",        emoji: "🥤", slug: "batido" },
+        { word: "la limonada",       sub: "the lemonade",       emoji: "🍋", slug: "limonada" },
+        { word: "el té",             sub: "the tea",            emoji: "🍵", slug: "te" },
+        { word: "la horchata",       sub: "the rice drink",     emoji: "🍚", slug: "horchata" },
+        { word: "el agua de coco",   sub: "the coconut water",  emoji: "🥥", slug: "agua-coco" },
+        { word: "el agua de jamaica", sub: "the hibiscus drink", emoji: "🌺", slug: "agua-jamaica" },
+        { word: "el atole",          sub: "the corn drink",     emoji: "🫕", slug: "atole" },
+        { word: "el agua mineral",   sub: "the sparkling water", emoji: "🫧", slug: "agua-mineral" },
+      ],
     },
   },
   sight: {
@@ -487,6 +497,20 @@ const GAMES = {
         { word: "birthday", emoji: "🎂", slug: "birthday" },
         { word: "ribbon", emoji: "🎀", slug: "ribbon" },
       ],
+      "Numbers": [
+        { word: "one", emoji: "1️⃣", slug: "one" },
+        { word: "two", emoji: "2️⃣", slug: "two" },
+        { word: "three", emoji: "3️⃣", slug: "three" },
+        { word: "four", emoji: "4️⃣", slug: "four" },
+        { word: "five", emoji: "5️⃣", slug: "five" },
+        { word: "six", emoji: "6️⃣", slug: "six" },
+        { word: "seven", emoji: "7️⃣", slug: "seven" },
+        { word: "eight", emoji: "8️⃣", slug: "eight" },
+        { word: "nine", emoji: "9️⃣", slug: "nine" },
+        { word: "ten", emoji: "🔟", slug: "ten" },
+        { word: "eleven", emoji: "1️⃣1️⃣", slug: "eleven" },
+        { word: "twelve", emoji: "1️⃣2️⃣", slug: "twelve" },
+      ],
     },
   },
 };
@@ -535,8 +559,9 @@ const NEW_CONTENT = {
       "Bathroom": "2026-10-21",
       "Desserts": "2026-10-22",
       "Reptiles": "2026-10-23",
+      "Drinks": "2026-10-26",
     },
-    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19", "Home": "2026-10-20", "Opposites": "2026-10-21", "Pets": "2026-10-22", "Birthday": "2026-10-23" },
+    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19", "Home": "2026-10-20", "Opposites": "2026-10-21", "Pets": "2026-10-22", "Birthday": "2026-10-23", "Numbers": "2026-10-26" },
   },
   words: {
     spanish: {
