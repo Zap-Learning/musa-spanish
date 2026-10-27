@@ -190,6 +190,22 @@ es|agua-coco|el agua de coco
 es|agua-jamaica|el agua de jamaica
 es|atole|el atole
 es|agua-mineral|el agua mineral
+es|maceta|la maceta
+es|regadera|la regadera
+es|semilla|la semilla
+es|manguera|la manguera
+es|rastrillo|el rastrillo
+es|girasol|el girasol
+es|cactus|el cactus
+es|hoja|la hoja
+es|uno|uno
+es|dos|dos
+es|tres|tres
+es|cuatro|cuatro
+es|cinco|cinco
+es|seis|seis
+es|siete|siete
+es|ocho|ocho
 en|dog|dog
 en|cat|cat
 en|duck|duck
