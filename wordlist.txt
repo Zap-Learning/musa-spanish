@@ -206,6 +206,14 @@ es|cinco|cinco
 es|seis|seis
 es|siete|siete
 es|ocho|ocho
+es|cereal|el cereal
+es|yogur|el yogur
+es|panqueque|el panqueque
+es|waffle|el waffle
+es|avena|la avena
+es|mantequilla|la mantequilla
+es|mermelada|la mermelada
+es|tocino|el tocino
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -422,3 +430,15 @@ en|nine|nine
 en|ten|ten
 en|eleven|eleven
 en|twelve|twelve
+en|swing|swing
+en|slide|slide
+en|seesaw|seesaw
+en|sandbox|sandbox
+en|monkey-bars|monkey bars
+en|tunnel|tunnel
+en|bench|bench
+en|fountain|fountain
+en|picnic|picnic
+en|squirrel|squirrel
+en|kite|kite
+en|merry-go-round|merry-go-round
