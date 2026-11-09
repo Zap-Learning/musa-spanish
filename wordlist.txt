@@ -237,6 +237,14 @@ es|avena|la avena
 es|mantequilla|la mantequilla
 es|mermelada|la mermelada
 es|tocino|el tocino
+es|martillo|el martillo
+es|destornillador|el destornillador
+es|llave-inglesa|la llave inglesa
+es|sierra|la sierra
+es|clavo|el clavo
+es|cinta-metrica|la cinta métrica
+es|caja-herramientas|la caja de herramientas
+es|casco|el casco
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -465,3 +473,15 @@ en|picnic|picnic
 en|squirrel|squirrel
 en|kite|kite
 en|merry-go-round|merry-go-round
+en|fox|fox
+en|owl|owl
+en|deer|deer
+en|wolf|wolf
+en|raccoon|raccoon
+en|hedgehog|hedgehog
+en|beaver|beaver
+en|moose|moose
+en|bat|bat
+en|mushroom|mushroom
+en|acorn|acorn
+en|log|log
