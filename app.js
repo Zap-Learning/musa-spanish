@@ -316,6 +316,16 @@ const GAMES = {
         { word: "la caja de herramientas", sub: "the toolbox",    emoji: "🧰", slug: "caja-herramientas" },
         { word: "el casco",               sub: "the helmet",     emoji: "⛑️", slug: "casco" },
       ],
+      "Beach": [
+        { word: "la arena",           sub: "the sand",          emoji: "🏝️", slug: "arena" },
+        { word: "la concha",          sub: "the seashell",      emoji: "🐚", slug: "concha" },
+        { word: "el castillo de arena", sub: "the sandcastle",  emoji: "🏰", slug: "castillo-arena" },
+        { word: "el balde",           sub: "the bucket",        emoji: "🪣", slug: "balde" },
+        { word: "la sombrilla",       sub: "the umbrella",      emoji: "⛱️", slug: "sombrilla" },
+        { word: "el salvavidas",      sub: "the life ring",     emoji: "🛟", slug: "salvavidas" },
+        { word: "las chanclas",       sub: "the flip-flops",    emoji: "🩴", slug: "chanclas" },
+        { word: "el traje de baño",   sub: "the swimsuit",      emoji: "🩳", slug: "traje-bano" },
+      ],
     },
   },
   sight: {
@@ -604,6 +614,20 @@ const GAMES = {
         { word: "acorn", emoji: "🌰", slug: "acorn" },
         { word: "log", emoji: "🪵", slug: "log" },
       ],
+      "Construction": [
+        { word: "crane", emoji: "🏗️", slug: "crane" },
+        { word: "dump truck", emoji: "🚛", slug: "dump-truck" },
+        { word: "hard hat", emoji: "⛑️", slug: "hard-hat" },
+        { word: "safety vest", emoji: "🦺", slug: "safety-vest" },
+        { word: "cone", emoji: "🚧", slug: "cone" },
+        { word: "hammer", emoji: "🔨", slug: "hammer" },
+        { word: "wrench", emoji: "🔧", slug: "wrench" },
+        { word: "screwdriver", emoji: "🪛", slug: "screwdriver" },
+        { word: "saw", emoji: "🪚", slug: "saw" },
+        { word: "bolt", emoji: "🔩", slug: "bolt" },
+        { word: "ladder", emoji: "🪜", slug: "ladder" },
+        { word: "bricks", emoji: "🧱", slug: "bricks" },
+      ],
     },
   },
 };
@@ -658,8 +682,9 @@ const NEW_CONTENT = {
       "Breakfast": "2026-11-07",
       "More Animals": "2026-11-07",
       "Tools": "2026-11-09",
+      "Beach": "2026-11-10",
     },
-    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19", "Home": "2026-10-20", "Opposites": "2026-10-21", "Pets": "2026-10-22", "Birthday": "2026-10-23", "Numbers": "2026-10-26", "Playground": "2026-11-07", "Forest": "2026-11-09" },
+    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19", "Home": "2026-10-20", "Opposites": "2026-10-21", "Pets": "2026-10-22", "Birthday": "2026-10-23", "Numbers": "2026-10-26", "Playground": "2026-11-07", "Forest": "2026-11-09", "Construction": "2026-11-10" },
   },
   words: {
     spanish: {
