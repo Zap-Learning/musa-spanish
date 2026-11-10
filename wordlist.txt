@@ -245,6 +245,14 @@ es|clavo|el clavo
 es|cinta-metrica|la cinta métrica
 es|caja-herramientas|la caja de herramientas
 es|casco|el casco
+es|arena|la arena
+es|concha|la concha
+es|castillo-arena|el castillo de arena
+es|balde|el balde
+es|sombrilla|la sombrilla
+es|salvavidas|el salvavidas
+es|chanclas|las chanclas
+es|traje-bano|el traje de baño
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -485,3 +493,15 @@ en|bat|bat
 en|mushroom|mushroom
 en|acorn|acorn
 en|log|log
+en|crane|crane
+en|dump-truck|dump truck
+en|hard-hat|hard hat
+en|safety-vest|safety vest
+en|cone|cone
+en|hammer|hammer
+en|wrench|wrench
+en|screwdriver|screwdriver
+en|saw|saw
+en|bolt|bolt
+en|ladder|ladder
+en|bricks|bricks

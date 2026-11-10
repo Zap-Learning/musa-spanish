@@ -90,6 +90,6 @@ test("every requested and additional animal has built-in Spanish audio", () => {
 
 test("HTML cache-busters are bumped for this content release", () => {
   const html = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
-  assert.match(html, /styles\.css\?v=20261109/);
-  assert.match(html, /app\.js\?v=20261109/);
+  assert.match(html, /styles\.css\?v=20261110/);
+  assert.match(html, /app\.js\?v=20261110/);
 });
