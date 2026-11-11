@@ -253,6 +253,14 @@ es|sombrilla|la sombrilla
 es|salvavidas|el salvavidas
 es|chanclas|las chanclas
 es|traje-bano|el traje de baño
+es|supermercado|el supermercado
+es|panaderia|la panadería
+es|heladeria|la heladería
+es|jugueteria|la juguetería
+es|restaurante|el restaurante
+es|cine|el cine
+es|estacion-bomberos|la estación de bomberos
+es|oficina-correos|la oficina de correos
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -505,3 +513,15 @@ en|saw|saw
 en|bolt|bolt
 en|ladder|ladder
 en|bricks|bricks
+en|tent|tent
+en|campfire|campfire
+en|sleeping-bag|sleeping bag
+en|flashlight|flashlight
+en|map|map
+en|compass|compass
+en|lantern|lantern
+en|canoe|canoe
+en|marshmallow|marshmallow
+en|binoculars|binoculars
+en|trail|trail
+en|cabin|cabin
