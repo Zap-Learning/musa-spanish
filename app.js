@@ -326,6 +326,16 @@ const GAMES = {
         { word: "las chanclas",       sub: "the flip-flops",    emoji: "🩴", slug: "chanclas" },
         { word: "el traje de baño",   sub: "the swimsuit",      emoji: "🩳", slug: "traje-bano" },
       ],
+      "Around Town": [
+        { word: "el supermercado",        sub: "the supermarket",   emoji: "🛒", slug: "supermercado" },
+        { word: "la panadería",           sub: "the bakery",        emoji: "🥖", slug: "panaderia" },
+        { word: "la heladería",           sub: "the ice cream shop", emoji: "🍨", slug: "heladeria" },
+        { word: "la juguetería",          sub: "the toy store",     emoji: "🪀", slug: "jugueteria" },
+        { word: "el restaurante",         sub: "the restaurant",    emoji: "🧑‍🍳", slug: "restaurante" },
+        { word: "el cine",                sub: "the movie theater", emoji: "🎬", slug: "cine" },
+        { word: "la estación de bomberos", sub: "the fire station", emoji: "🚒", slug: "estacion-bomberos" },
+        { word: "la oficina de correos",  sub: "the post office",   emoji: "🏤", slug: "oficina-correos" },
+      ],
     },
   },
   sight: {
@@ -628,6 +638,20 @@ const GAMES = {
         { word: "ladder", emoji: "🪜", slug: "ladder" },
         { word: "bricks", emoji: "🧱", slug: "bricks" },
       ],
+      "Camping": [
+        { word: "tent", emoji: "⛺", slug: "tent" },
+        { word: "campfire", emoji: "🔥", slug: "campfire" },
+        { word: "sleeping bag", emoji: "💤", slug: "sleeping-bag" },
+        { word: "flashlight", emoji: "🔦", slug: "flashlight" },
+        { word: "map", emoji: "🗺️", slug: "map" },
+        { word: "compass", emoji: "🧭", slug: "compass" },
+        { word: "lantern", emoji: "🏮", slug: "lantern" },
+        { word: "canoe", emoji: "🛶", slug: "canoe" },
+        { word: "marshmallow", emoji: "🍢", slug: "marshmallow" },
+        { word: "binoculars", emoji: "🔭", slug: "binoculars" },
+        { word: "trail", emoji: "🌲", slug: "trail" },
+        { word: "cabin", emoji: "🛖", slug: "cabin" },
+      ],
     },
   },
 };
@@ -683,8 +707,9 @@ const NEW_CONTENT = {
       "More Animals": "2026-11-07",
       "Tools": "2026-11-09",
       "Beach": "2026-11-10",
+      "Around Town": "2026-11-11",
     },
-    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19", "Home": "2026-10-20", "Opposites": "2026-10-21", "Pets": "2026-10-22", "Birthday": "2026-10-23", "Numbers": "2026-10-26", "Playground": "2026-11-07", "Forest": "2026-11-09", "Construction": "2026-11-10" },
+    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19", "Home": "2026-10-20", "Opposites": "2026-10-21", "Pets": "2026-10-22", "Birthday": "2026-10-23", "Numbers": "2026-10-26", "Playground": "2026-11-07", "Forest": "2026-11-09", "Construction": "2026-11-10", "Camping": "2026-11-11" },
   },
   words: {
     spanish: {
