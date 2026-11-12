@@ -336,6 +336,16 @@ const GAMES = {
         { word: "la estación de bomberos", sub: "the fire station", emoji: "🚒", slug: "estacion-bomberos" },
         { word: "la oficina de correos",  sub: "the post office",   emoji: "🏤", slug: "oficina-correos" },
       ],
+      "Space": [
+        { word: "el planeta",        sub: "the planet",          emoji: "🪐", slug: "planeta" },
+        { word: "la estrella fugaz", sub: "the shooting star",   emoji: "🌠", slug: "estrella-fugaz" },
+        { word: "el astronauta",     sub: "the astronaut",       emoji: "🧑‍🚀", slug: "astronauta" },
+        { word: "el ovni",           sub: "the UFO",             emoji: "🛸", slug: "ovni" },
+        { word: "el meteorito",      sub: "the meteor",          emoji: "☄️", slug: "meteorito" },
+        { word: "el telescopio",     sub: "the telescope",       emoji: "🔭", slug: "telescopio" },
+        { word: "el extraterrestre", sub: "the alien",           emoji: "👽", slug: "extraterrestre" },
+        { word: "el satélite",       sub: "the satellite",       emoji: "🛰️", slug: "satelite" },
+      ],
     },
   },
   sight: {
@@ -652,6 +662,20 @@ const GAMES = {
         { word: "trail", emoji: "🌲", slug: "trail" },
         { word: "cabin", emoji: "🛖", slug: "cabin" },
       ],
+      "Winter": [
+        { word: "snowman", emoji: "⛄", slug: "snowman" },
+        { word: "snowflake", emoji: "❄️", slug: "snowflake" },
+        { word: "mitten", emoji: "🧤", slug: "mitten" },
+        { word: "sled", emoji: "🛷", slug: "sled" },
+        { word: "ice", emoji: "🧊", slug: "ice" },
+        { word: "cocoa", emoji: "☕", slug: "cocoa" },
+        { word: "penguin", emoji: "🐧", slug: "penguin" },
+        { word: "polar bear", emoji: "🐻‍❄️", slug: "polar-bear" },
+        { word: "sweater", emoji: "🧶", slug: "sweater" },
+        { word: "earmuffs", emoji: "🎧", slug: "earmuffs" },
+        { word: "snow", emoji: "🌨️", slug: "snow" },
+        { word: "soup", emoji: "🍲", slug: "soup" },
+      ],
     },
   },
 };
@@ -708,8 +732,9 @@ const NEW_CONTENT = {
       "Tools": "2026-11-09",
       "Beach": "2026-11-10",
       "Around Town": "2026-11-11",
+      "Space": "2026-11-12",
     },
-    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19", "Home": "2026-10-20", "Opposites": "2026-10-21", "Pets": "2026-10-22", "Birthday": "2026-10-23", "Numbers": "2026-10-26", "Playground": "2026-11-07", "Forest": "2026-11-09", "Construction": "2026-11-10", "Camping": "2026-11-11" },
+    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19", "Home": "2026-10-20", "Opposites": "2026-10-21", "Pets": "2026-10-22", "Birthday": "2026-10-23", "Numbers": "2026-10-26", "Playground": "2026-11-07", "Forest": "2026-11-09", "Construction": "2026-11-10", "Camping": "2026-11-11", "Winter": "2026-11-12" },
   },
   words: {
     spanish: {
