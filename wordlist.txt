@@ -261,6 +261,14 @@ es|restaurante|el restaurante
 es|cine|el cine
 es|estacion-bomberos|la estación de bomberos
 es|oficina-correos|la oficina de correos
+es|planeta|el planeta
+es|estrella-fugaz|la estrella fugaz
+es|astronauta|el astronauta
+es|ovni|el ovni
+es|meteorito|el meteorito
+es|telescopio|el telescopio
+es|extraterrestre|el extraterrestre
+es|satelite|el satélite
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -525,3 +533,15 @@ en|marshmallow|marshmallow
 en|binoculars|binoculars
 en|trail|trail
 en|cabin|cabin
+en|snowman|snowman
+en|snowflake|snowflake
+en|mitten|mitten
+en|sled|sled
+en|ice|ice
+en|cocoa|cocoa
+en|penguin|penguin
+en|polar-bear|polar bear
+en|sweater|sweater
+en|earmuffs|earmuffs
+en|snow|snow
+en|soup|soup
