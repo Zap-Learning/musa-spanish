@@ -269,6 +269,14 @@ es|meteorito|el meteorito
 es|telescopio|el telescopio
 es|extraterrestre|el extraterrestre
 es|satelite|el satélite
+es|sandwich|el sándwich
+es|pizza|la pizza
+es|taco|el taco
+es|ensalada|la ensalada
+es|sopa|la sopa
+es|papas-fritas|las papas fritas
+es|arroz|el arroz
+es|pasta|la pasta
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -545,3 +553,15 @@ en|sweater|sweater
 en|earmuffs|earmuffs
 en|snow|snow
 en|soup|soup
+en|doll|doll
+en|robot|robot
+en|drum|drum
+en|guitar|guitar
+en|skateboard|skateboard
+en|scooter|scooter
+en|video-game|video game
+en|bubbles|bubbles
+en|dollhouse|dollhouse
+en|puzzle|puzzle
+en|marbles|marbles
+en|spinning-top|spinning top
