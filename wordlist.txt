@@ -277,6 +277,14 @@ es|sopa|la sopa
 es|papas-fritas|las papas fritas
 es|arroz|el arroz
 es|pasta|la pasta
+es|pollo|el pollo
+es|carne|la carne
+es|frijoles|los frijoles
+es|aguacate|el aguacate
+es|tortilla|la tortilla
+es|tamal|el tamal
+es|calabaza|la calabaza
+es|chile|el chile
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -565,3 +573,15 @@ en|dollhouse|dollhouse
 en|puzzle|puzzle
 en|marbles|marbles
 en|spinning-top|spinning top
+en|tiger|tiger
+en|elephant|elephant
+en|monkey|monkey
+en|giraffe|giraffe
+en|zebra|zebra
+en|hippo|hippo
+en|panda|panda
+en|koala|koala
+en|kangaroo|kangaroo
+en|gorilla|gorilla
+en|rhino|rhino
+en|camel|camel
