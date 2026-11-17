@@ -285,6 +285,14 @@ es|tortilla|la tortilla
 es|tamal|el tamal
 es|calabaza|la calabaza
 es|chile|el chile
+es|columpio|el columpio
+es|subibaja|el subibaja
+es|barras|las barras
+es|tunel|el túnel
+es|banca|la banca
+es|fuente|la fuente
+es|carrusel|el carrusel
+es|picnic|el picnic
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -585,3 +593,15 @@ en|kangaroo|kangaroo
 en|gorilla|gorilla
 en|rhino|rhino
 en|camel|camel
+en|piano|piano
+en|violin|violin
+en|trumpet|trumpet
+en|flute|flute
+en|microphone|microphone
+en|maraca|maraca
+en|bell|bell
+en|saxophone|saxophone
+en|accordion|accordion
+en|radio|radio
+en|speaker|speaker
+en|singer|singer
