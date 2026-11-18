@@ -376,6 +376,16 @@ const GAMES = {
         { word: "el carrusel", sub: "the merry-go-round", emoji: "🎠", slug: "carrusel" },
         { word: "el picnic",   sub: "the picnic",      emoji: "🧺", slug: "picnic" },
       ],
+      "Art Supplies": [
+        { word: "el crayón",    sub: "the crayon",    emoji: "🖍️", slug: "crayon" },
+        { word: "el lápiz",     sub: "the pencil",    emoji: "✏️", slug: "lapiz" },
+        { word: "el papel",     sub: "the paper",     emoji: "📄", slug: "papel" },
+        { word: "la pintura",   sub: "the paint",     emoji: "🎨", slug: "pintura" },
+        { word: "el pincel",    sub: "the paintbrush", emoji: "🖌️", slug: "pincel" },
+        { word: "las tijeras",  sub: "the scissors",  emoji: "✂️", slug: "tijeras" },
+        { word: "el marcador",  sub: "the marker",    emoji: "🖊️", slug: "marcador" },
+        { word: "la pluma",     sub: "the pen",       emoji: "🖋️", slug: "pluma" },
+      ],
     },
   },
   sight: {
@@ -748,6 +758,20 @@ const GAMES = {
         { word: "speaker", emoji: "🔊", slug: "speaker" },
         { word: "singer", emoji: "🧑‍🎤", slug: "singer" },
       ],
+      "Bathroom": [
+        { word: "soap", emoji: "🧼", slug: "soap" },
+        { word: "toothbrush", emoji: "🪥", slug: "toothbrush" },
+        { word: "toothpaste", emoji: "🦷", slug: "toothpaste" },
+        { word: "bathtub", emoji: "🛁", slug: "bathtub" },
+        { word: "toilet", emoji: "🚽", slug: "toilet" },
+        { word: "mirror", emoji: "🪞", slug: "mirror" },
+        { word: "shampoo", emoji: "🧴", slug: "shampoo" },
+        { word: "comb", emoji: "🪮", slug: "comb" },
+        { word: "shower", emoji: "🚿", slug: "shower" },
+        { word: "sink", emoji: "🚰", slug: "sink" },
+        { word: "sponge", emoji: "🧽", slug: "sponge" },
+        { word: "bath", emoji: "🛀", slug: "bath" },
+      ],
     },
   },
 };
@@ -808,8 +832,9 @@ const NEW_CONTENT = {
       "Lunch": "2026-11-13",
       "Dinner": "2026-11-16",
       "Playground": "2026-11-17",
+      "Art Supplies": "2026-11-18",
     },
-    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19", "Home": "2026-10-20", "Opposites": "2026-10-21", "Pets": "2026-10-22", "Birthday": "2026-10-23", "Numbers": "2026-10-26", "Playground": "2026-11-07", "Forest": "2026-11-09", "Construction": "2026-11-10", "Camping": "2026-11-11", "Winter": "2026-11-12", "Toys": "2026-11-13", "Zoo": "2026-11-16", "Music": "2026-11-17" },
+    sight: { "Actions": "2026-10-09", "Clothes": "2026-10-09", "Ocean": "2026-10-12", "Insects": "2026-10-13", "Vehicles": "2026-10-13", "Jobs": "2026-10-14", "Sports": "2026-10-15", "School": "2026-10-16", "Emotions": "2026-10-19", "Home": "2026-10-20", "Opposites": "2026-10-21", "Pets": "2026-10-22", "Birthday": "2026-10-23", "Numbers": "2026-10-26", "Playground": "2026-11-07", "Forest": "2026-11-09", "Construction": "2026-11-10", "Camping": "2026-11-11", "Winter": "2026-11-12", "Toys": "2026-11-13", "Zoo": "2026-11-16", "Music": "2026-11-17", "Bathroom": "2026-11-18" },
   },
   words: {
     spanish: {

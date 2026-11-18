@@ -293,6 +293,14 @@ es|banca|la banca
 es|fuente|la fuente
 es|carrusel|el carrusel
 es|picnic|el picnic
+es|crayon|el crayón
+es|lapiz|el lápiz
+es|papel|el papel
+es|pintura|la pintura
+es|pincel|el pincel
+es|tijeras|las tijeras
+es|marcador|el marcador
+es|pluma|la pluma
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -605,3 +613,15 @@ en|accordion|accordion
 en|radio|radio
 en|speaker|speaker
 en|singer|singer
+en|soap|soap
+en|toothbrush|toothbrush
+en|toothpaste|toothpaste
+en|bathtub|bathtub
+en|toilet|toilet
+en|mirror|mirror
+en|shampoo|shampoo
+en|comb|comb
+en|shower|shower
+en|sink|sink
+en|sponge|sponge
+en|bath|bath
