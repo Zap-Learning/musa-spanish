@@ -198,8 +198,30 @@ test("Art Supplies and Bathroom categories are complete, stamped, and have audio
   }
 });
 
+test("Sports and Breakfast categories are complete, stamped, and have audio", () => {
+  const sports = GAMES.spanish.categories.Sports;
+  const breakfast = GAMES.sight.categories.Breakfast;
+  assert.ok(sports, "Sports category is missing");
+  assert.ok(breakfast, "Breakfast category is missing");
+  assert.equal(sports.length, 8);
+  assert.equal(breakfast.length, 12);
+  assert.equal(NEW_CONTENT.categories.spanish.Sports, "2026-11-19");
+  assert.equal(NEW_CONTENT.categories.sight.Breakfast, "2026-11-19");
+  for (const card of sports) {
+    assert.match(card.word, /^(el|la|los|las) /);
+    const file = path.join(ROOT, "audio", `es-${card.slug}.mp3`);
+    assert.ok(fs.existsSync(file), `missing audio: es-${card.slug}.mp3`);
+    assert.ok(fs.statSync(file).size > 1000, `audio is too small: es-${card.slug}.mp3`);
+  }
+  for (const card of breakfast) {
+    const file = path.join(ROOT, "audio", `en-${card.slug}.mp3`);
+    assert.ok(fs.existsSync(file), `missing audio: en-${card.slug}.mp3`);
+    assert.ok(fs.statSync(file).size > 1000, `audio is too small: en-${card.slug}.mp3`);
+  }
+});
+
 test("HTML cache-busters are bumped for this content release", () => {
   const html = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
-  assert.match(html, /styles\.css\?v=20261118/);
-  assert.match(html, /app\.js\?v=20261118/);
+  assert.match(html, /styles\.css\?v=20261119/);
+  assert.match(html, /app\.js\?v=20261119/);
 });

@@ -301,6 +301,14 @@ es|pincel|el pincel
 es|tijeras|las tijeras
 es|marcador|el marcador
 es|pluma|la pluma
+es|futbol|el fútbol
+es|beisbol|el béisbol
+es|tenis|el tenis
+es|baloncesto|el baloncesto
+es|voleibol|el voleibol
+es|golf|el golf
+es|hockey|el hockey
+es|boliche|el boliche
 en|dog|dog
 en|cat|cat
 en|duck|duck
@@ -625,3 +633,15 @@ en|shower|shower
 en|sink|sink
 en|sponge|sponge
 en|bath|bath
+en|cereal|cereal
+en|yogurt|yogurt
+en|pancake|pancake
+en|waffle|waffle
+en|oatmeal|oatmeal
+en|butter|butter
+en|jam|jam
+en|bacon|bacon
+en|toast|toast
+en|syrup|syrup
+en|muffin|muffin
+en|orange-juice|orange juice
